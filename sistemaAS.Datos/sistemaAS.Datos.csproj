@@ -13,11 +13,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Mapeo\Sales\" />
-    <Folder Include="Mapeo\Users\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\sistemaAS.Entidades\sistemaAS.Entidades.csproj" />
   </ItemGroup>
 
