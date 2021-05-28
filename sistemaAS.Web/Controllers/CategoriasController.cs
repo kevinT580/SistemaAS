@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using sistemaAS.Datos;
 using sistemaAS.Entidades.Purchases;
+using sistemaAS.Entidades.Wherehouse;
 using System;
 using System.Collections.Generic;
 using System.Linq;
