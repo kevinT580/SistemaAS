@@ -26,7 +26,9 @@ namespace sistemaAS.Datos
         public DbSet<Person> Persons { get; set; }
         public DbSet<Rol> Roles { get; set; }
         public DbSet<Usuario> Usuarios { get; set; }
-        public DbSet<Venta> ventas { get; set; }
+        public DbSet<Venta> Ventas { get; set; }
+      
+
         public DbContextSistema(DbContextOptions<DbContextSistema>options) : base(options)
         {
 
