@@ -100,7 +100,7 @@ public async Task<ActionResult<Categoria>> GetCategoria(int id)
         //EVALUO CON UN BOOLEANO SI EXISTE
         private bool CategoriaExists(int id)
         {
-            return _context.Categorias.Any(b => b.idcategoria == id);
+            return _context.Categorias.Any(z => z.idcategoria == id);
         }
         }
 }

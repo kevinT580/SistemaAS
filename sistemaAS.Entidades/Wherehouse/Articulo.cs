@@ -2,8 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 using System.ComponentModel.DataAnnotations;
+using sistemaAS.Entidades.Purchases;
 
-namespace sistemaAS.Entidades.Purchases
+namespace sistemaAS.Entidades.Wherehouse
 {
     public class Articulo
     {

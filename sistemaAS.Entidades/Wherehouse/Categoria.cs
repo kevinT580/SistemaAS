@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Text;
 
-namespace sistemaAS.Entidades.Purchases
+namespace sistemaAS.Entidades.Wherehouse
 {
     public class Categoria
     {

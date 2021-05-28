@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using System.ComponentModel.DataAnnotations;
 using sistemaAS.Entidades.Purchases;
+using sistemaAS.Entidades.Wherehouse;
 
 namespace sistemaAS.Entidades.Sales
 {

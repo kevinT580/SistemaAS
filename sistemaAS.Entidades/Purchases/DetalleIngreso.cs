@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 using System.ComponentModel.DataAnnotations;
+using sistemaAS.Entidades.Wherehouse;
 
 namespace sistemaAS.Entidades.Purchases
 {

@@ -10,8 +10,7 @@ namespace sistemaAS.Entidades.Purchases
     {
 
         public int idIngreso { get; set; }
-        [Required]
-        [StringLength(50, MinimumLength = 3, ErrorMessage = "Error")]
+       
 
        
         public string tipoComprobante { get; set; }
@@ -28,6 +27,7 @@ namespace sistemaAS.Entidades.Purchases
         public string estado { get; set; }
 
         public List<Usuario> Usuarios { get; set; }
+        public List<Person> Persons { get; set; }
 
 
     }

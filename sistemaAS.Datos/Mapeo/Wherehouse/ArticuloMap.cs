@@ -4,6 +4,7 @@ using System.Text;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using sistemaAS.Entidades.Purchases;
+using sistemaAS.Entidades.Wherehouse;
 
 namespace sistemaAS.Datos.Mapeo.Wherehouse
 {

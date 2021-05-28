@@ -22,7 +22,7 @@ namespace sistemaAS.Datos.Mapeo.Wherehouse
 
             builder.Property(b => b.condicion);
             //RELACION CON CATEGORIA 1 A 1 
-           
+          
 
         }
     }
