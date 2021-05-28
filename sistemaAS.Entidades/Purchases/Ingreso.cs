@@ -2,7 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 using System.ComponentModel.DataAnnotations;
-namespace sistemaAS.Entidades.Wherehouse
+using sistemaAS.Entidades.Users;
+
+namespace sistemaAS.Entidades.Purchases
 {
     public class Ingreso
     {
@@ -11,12 +13,7 @@ namespace sistemaAS.Entidades.Wherehouse
         [Required]
         [StringLength(50, MinimumLength = 3, ErrorMessage = "Error")]
 
-        public int idProveedor { get; set; }
-        [Required]
-        [StringLength(50, MinimumLength = 3, ErrorMessage = "Error")]
-        public int idUsuario { get; set; }
-        [Required]
-        [StringLength(50, MinimumLength = 3, ErrorMessage = "Error")]
+       
         public string tipoComprobante { get; set; }
         [StringLength(20)]
         public string serieComprobante { get; set; }
@@ -24,10 +21,14 @@ namespace sistemaAS.Entidades.Wherehouse
         public string numComprobante { get; set; }
         [StringLength(10)]
         public DateTime fechaHora { get; set; }
-        public string impuesto { get; set; }
-        [StringLength(50)]
-        public string total { get; set; }
-        [StringLength(50)]
+        public decimal impuesto { get; set; }
+        
+        public decimal total { get; set; }
+  
         public string estado { get; set; }
+
+        public List<Usuario> Usuarios { get; set; }
+
+
     }
 }

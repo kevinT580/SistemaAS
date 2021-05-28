@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using sistemaAS.Datos;
-using sistemaAS.Entidades.Wherehouse;
+using sistemaAS.Entidades.Purchases;
 using System;
 using System.Collections.Generic;
 using System.Linq;

@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using System.Text;
 using System.ComponentModel.DataAnnotations;
+using sistemaAS.Entidades.Users;
+
 namespace sistemaAS.Entidades.Sales
 {
     public class Venta
@@ -9,12 +11,7 @@ namespace sistemaAS.Entidades.Sales
         public int idVenta { get; set; }
         [Required]
         [StringLength(50, MinimumLength =3,ErrorMessage = "ERROR")]
-        public int idCliente { get; set; }
-        [Required]
-        [StringLength(50, MinimumLength =3, ErrorMessage = "NO ENCONTRADO")]
-        public int idUsuario { get; set; }
-        [Required]
-        [StringLength(50, MinimumLength =3, ErrorMessage = "ERROR")]
+        
         public string tipoComprobante { get; set; }
         [StringLength(20)]
         public string serieComprobante { get; set; }
@@ -23,10 +20,14 @@ namespace sistemaAS.Entidades.Sales
         [StringLength(10)]
         public DateTime fechaHora { get; set; }
         
-        public string impuesto { get; set; }
-        [StringLength(50)]
-        public string total { get; set; }
-        [StringLength(50)]
+        public decimal impuesto { get; set; }
+     
+        public decimal total { get; set; }
+   
         public string estado { get; set; }
+
+        public List<Person> Personas { get; set; }
+        public List<Usuario> Usuarios { get; set; }
+
     }
 }

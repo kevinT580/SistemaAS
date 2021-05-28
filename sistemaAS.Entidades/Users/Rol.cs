@@ -10,10 +10,10 @@ namespace sistemaAS.Entidades.Users
        public int idRol { get; set; }
        [Required]
        [StringLength(50, MinimumLength =3, ErrorMessage = "DATO INCORRECTO")]
-       public string nombrRol { get; set; }
+       public string nombreRol { get; set; }
         [StringLength(50)]
-        public string descripcionRon { get; set; }
+        public string descripcionRol { get; set; }
         [StringLength(100)]
-        public string condicion { get; set; }
+        public bool condicion { get; set; }
     }
 }

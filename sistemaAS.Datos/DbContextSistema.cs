@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using sistemaAS.Datos.Mapeo.Wherehouse;
-using sistemaAS.Entidades.Wherehouse;
+using sistemaAS.Entidades.Purchases;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -23,7 +23,8 @@ namespace sistemaAS.Datos
         {
             base.OnModelCreating(modelBuilder);
             modelBuilder.ApplyConfiguration(new CategoriaMap());
-
+            //para cuando hay una relación
+            modelBuilder.Entity
         }
     
     

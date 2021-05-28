@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Text;
 
-namespace sistemaAS.Entidades.Wherehouse
+namespace sistemaAS.Entidades.Purchases
 {
     public class Categoria
     {
@@ -15,5 +15,6 @@ namespace sistemaAS.Entidades.Wherehouse
         public string descripcion { get; set; }
 
         public bool condicion { get; set; }
+        List<Articulo> Articulos { get; set; }
     }
 }
