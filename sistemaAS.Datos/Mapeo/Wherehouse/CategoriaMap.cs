@@ -1,6 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using sistemaAS.Entidades.Purchases;
+using sistemaAS.Entidades.Wherehouse;
 using System;
 using System.Collections.Generic;
 using System.Text;
